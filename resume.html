@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Resume</title>
+    </head>
+	
+	<style>
+		 h2 {
+			padding-left: 8px;
+			margin-right: 900px;
+			border-style: solid;
+			border-length-right: -500px;
+			border-radius: 5px;
+			border-color: red;
+		 }
+		 body {
+			font-family: Comic Sans MS, Jokerman;
+			background-color: salmon;
+			color: lime;
+		 }
+		 #imgDiv {
+			left: 640px; 
+			position: absolute;
+		 }
+	</style>
+	
+    <body>			
+        <div>
+            <h1>Resume</h1>
+        </div>
+		
+		<div id="imgDiv">
+			<img src="http://pbs.twimg.com/media/C9jUk8vXgAAiO20.jpg" alt="Dinosaur Earth propaganda">
+			<p style="text-align: center">Dinosaur Earth is the true Earth</p>
+        </div>
+		<!--School-->
+		<div>
+		<h2>School Things</h2>
+		<ul>
+			<li>Co-president of the chess club</li>
+		</ul>
+		</div>
+        <!--Past Work-->
+		<div>
+		<h2>Past Work Experience</h2>
+		<ul>
+			<li>I served food from a stand at a German club multiple times</li>
+			<li>Nothing else</li>
+		</ul>
+		</div>
+		<!--Extra-->
+		<div>
+		<h2>Extra Curricular Activities/Service Hours</h2>
+		<ul>
+			<li>"Chess" Club</li>
+			<li>Robotics Club</li>
+			<li>I helped build a gravel path at St. Edwards church</li>
+		</ul>
+		</div>
+		<!--programming-->
+		<div>
+		<h2>Programming Languages</h2>
+		<ol>
+			<li>I know Python</li>
+			<li>I know JavaScript</li>
+			<li>I know HTML</li>
+			<li>I know CSS</li>
+		</ol>
+		</div>
+		<!--awards-->
+		<div>
+		<h2>Awards</h2>
+		<p>I'm not talented enough to get an award</p>
+		</div>
+		<!--strengths?-->
+		<div>
+		<h2>Strengths?</h2>
+		<ul>
+			<li>Web design (this site is proof)</li>
+			<li>procrastination</li>
+		</ul>
+		</div>
+    </body>
+	
+	<script>
+		function playSound() {
+			var sound = new Audio('sound.mp3');
+			sound.addEventListener("ended", playSound, true);
+			sound.play();
+			}
+		
+		playSound()
+	</script>
+</html>
